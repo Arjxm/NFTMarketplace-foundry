@@ -9,6 +9,10 @@ if [ -z "$BUILDBEAR_RPC_URL" ]; then
   exit 1
 fi
 
+
+
+
+
 if [ -z "$MNEMONIC" ]; then
   echo "Error: MNEMONIC is not set. Please set it in the environment."
   exit 1
